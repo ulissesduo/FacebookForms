@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap" rel="stylesheet">
+    
+    <title>recriar Forms</title>
+</head>
+<body>
+    <div class="logo">
+        <h1 id="logo">facebook</h1>
+    </div><div class="fundo">
+    <div class="titulo">
+        <h1 class="titulo">Criar uma nova conta</h1>
+        <p class="subtitulo">É rápido e fácil</p>
+    </div>
+    <hr>
+    <form class="formulario">
+        <div>
+            <input class="nomes" type="text" placeholder="Nome">
+            <input class="nomes" type="text" placeholder="Sobrenome">           
+        </div>
+        
+        <div>
+            <input class="imps" type="text" placeholder="Celular ou email">
+            
+        </div>
+        
+        
+        <input class="imps" type="password" placeholder="Nova senha">
+        
+        <div class="data-genero">Data nascimento</div>
+        <div class="selecao">
+            <select id="dias">
+            
+            </select>
+            <select>
+                <option>Jan</option>
+                <option>Fev</option>
+                <option>Mar</option>
+                <option>Abr</option>
+                <option>Mai</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Ago</option>
+                <option>Set</option>
+                <option>Out</option>
+                <option>Nov</option>
+                <option>Dez</option>
+            
+            </select>
+            <select id="ano">
+            </select>
+
+        </div>
+        
+      <div class="data-genero">Gênero</div>
+      <div class="generos" id="genero">
+        <div class="generosFilhos">
+            <label for="ativo">Feminino</label>
+            <input type="radio" name="rad" id="ativo" onclick="displayChange()">
+        </div>
+        <div class="generosFilhos">
+            <label for="ativom">Masculino</label>
+            <input type="radio" name="rad" id="ativom" onclick="displayChange()">
+        </div>
+        <div class="generosFilhos">
+            <label for="personalizado">Personalizado</label>
+            <input type="radio" name="rad" id="personalizado" onclick="displayChange()">
+        </div>
+        </div>
+        
+            <div class="naopersonalizado">
+                <select class="prenome" id="prename">
+                    <option value disabled="1">Selecione seu prenome</option>
+                    <option value="1" style="display: none;">Selecione seu prenome</option>
+                    <option value="2">Feminino: "Deseje a ela um feliz aniversário!"</option>
+                    <option value="3">Masculino: "Deseje a ele um feliz aniversário!"</option>
+                    <option value="4">Neutro: "Deseje a ele(a) um feliz aniversário!"</option>
+                    
+                </select>
+                <div class="generoinput" id="generoinput">
+                    <p class="prenomepar">Seu prenome fica visível para todos.</p>
+                
+                    <div>
+                        <input class="imps" type="text" placeholder="Gênero (opcional)">
+                        
+                    </div>    
+                </div>
+            </div>
+        <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de Dados</a> e <a href="#">Política de Cookies</a>. Você poderá receber notificações por SMS e cancelar isso quando quiser.</p>
+        
+        <input class="cadastrar" type="button" value="Cadastre-se">
+        <div class="dolink">
+
+            <a href="index3.html" id="jatem">Já tem uma conta?</a>
+        </div>
+    </form>
+</div>
+
+</body>
+<div class="rodape">
+    <ul class="idioma">
+        <li class="listaIdioma"><a>Português (Brasil)</a></li>
+        <li class="listaIdioma"><a>Inglês (EUA)</a></li>
+        <li class="listaIdioma"><a>Espanhol</a></li>
+        <li class="listaIdioma"><a>Français (França)</a></li>
+        <li class="listaIdioma"><a>Italiano</a></li>
+        <li class="listaIdioma"><a>Alemão</a></li>
+        <li class="listaIdioma"><a>+</a></li>
+        
+    </ul>
+    <hr style="margin: 0 176px;">
+    <ul class="lastListUL">
+        <li class="lastListLI1"><a>lista de baixo</a></li>
+        <li class="lastListLI"><a>lista de baixo</a></li>
+        <li class="lastListLI"><a>lista de baixo</a></li>
+        <li class="lastListLI"><a>lista de baixo</a></li>
+        <li class="lastListLI"><a>lista de baixo</a></li>
+        <li class="lastListLI"><a>lista de baixo</a></li>
+        <li class="lastListLI"><a>lista de baixo</a></li>     
+           
+    </ul>
+    <p class="datarodape">Facebook © 2022</p>
+</div>
+<script src="form.js">
+        
+   
+</script>
+
+</html>

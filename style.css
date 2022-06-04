@@ -1,0 +1,255 @@
+body{
+    background: rgb(234, 234, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.logo{
+    display: flex;
+}
+
+#logo {
+    margin: 0 auto;
+    color: rgb(0, 119, 255);
+    font-size: 60px;
+    margin-bottom: 3px;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.subtitulo {
+    font-size: 15px;
+    color: rgb(71, 70, 70);
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.fundo {
+    width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(212, 207, 207, 0.712);
+    box-shadow: 4px 4px 4px rgba(212, 207, 207, 0.712);
+    box-shadow: 5px 5px 5px rgba(192, 190, 190, 0.712);
+
+}
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    height:1px;
+    border-width:0;
+    color:rgb(218, 213, 213);
+    background-color:rgb(196, 192, 192)
+
+}
+
+.nomes {
+    width: 190px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-left: 1px;
+    margin-top: 10px;
+    text-indent: 15px;
+
+
+}
+.nomes::placeholder{
+    color: rgb(168, 167, 167);
+}
+
+.imps::placeholder{
+    color: rgb(168, 167, 167);
+}
+
+.imps {
+    height: 35px;
+    border-radius: 5px;
+    width: 393px;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    text-indent: 15px;
+}
+input:focus, select:focus{
+    box-shadow: 0 0 0 0;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-width: 1px; 
+    outline: 0;
+}
+.selecao {
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    width: 125px;
+    height: 38px;
+    border-radius: 6px;
+    border-color: rgba(0, 0, 0, 0.199);
+}
+
+#generoinput {
+    display: none;
+}
+.generos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.generosFilhos {
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.199);
+
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 9px;
+}
+
+.prenome {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.prenome::placeholder {
+    color: blue;
+
+}
+.prenomepar{
+    font-size: 12px; 
+    padding-left: 2px; 
+    margin-bottom: 4px;
+}
+.naopersonalizado {
+    display: block;
+}
+p {
+    color: grey;
+    font-size: 11px;
+
+}
+.data-genero {
+    font-size: 12px;
+    color: GREY;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    padding-left: 2px; 
+    /* margin-bottom: 4px; */
+
+}
+.cadastrar {
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(11, 165, 11);
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 200px;
+    height: 35px;
+    margin: auto;
+}
+.cadastrar:hover{
+    background-color: rgb(17, 139, 17);
+    cursor: pointer;
+    transition: all .4s ease ;
+
+}
+
+.dolink {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 89, 255, 0.767);
+}
+a:hover{
+    color: rgb(0, 89, 255);
+}
+
+.rodape {
+    height: 100px; 
+    background-color: #fff;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.idioma {
+    display: flex;
+    justify-content: start;
+    justify-items: start;
+    padding: 0;
+    margin: 0 176px;
+}
+.listaIdioma {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+    
+}
+
+.lastListUL {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    margin: 0 176px;
+    padding-top: 15px;
+
+}
+.lastListLI {
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.lastListLI1{
+    list-style-type: none;
+    margin-left: 3px;
+    font-size: 12px;
+    cursor: pointer;
+
+
+}
+.lastListLI:hover, .lastListLI1:hover, .lastListLI1:hover{
+    text-decoration: underline;
+}
+.datarodape{
+    display: flex;
+    justify-content: start;
+    margin-left: 176px;
+    margin-top: 20px;
+    
+
+}
